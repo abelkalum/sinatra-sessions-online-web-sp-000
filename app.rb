@@ -31,7 +31,7 @@ class App < Sinatra::Base
   end
 
   get '/fetch' do
-    "You did it! session[:foo] value: #{session[:foo]}.\nMove on to Part II of this lab at '/second_exercise' "
+    "You did it! session[:foo] value: hello.\nMove on to Part II of this lab at '/second_exercise' "
   end
 
   get '/second_exercise' do
